@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Code Guide
 
-You can use the [editor on GitHub](https://github.com/lee84233/cv/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Code Guide is a project for documenting standards for developing flexible, durable, and sustainable HTML ,CSS and maintainable JavaScript. It comes from years of experience writing code on projects of all sizes. It's not the end-all be-all, but it's a start.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**[Start reading ☞](http://materliu.github.io/code-guide)**
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### License
 
-```markdown
-Syntax highlighted code block
+Released under MIT by, and copyright 2014, @materliu.
 
-# Header 1
-## Header 2
-### Header 3
+### Thanks
 
-- Bulleted
-- List
+Heavily inspired by [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and the [GitHub Styleguide](http://github.com/styleguide).
+origin Project by [@mdo](https://github.com/mdo)
+chinese translated by [@zoomzhao](http://zoomzhao.github.io/code-guide/)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lee84233/cv/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<3
