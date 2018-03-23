@@ -1,41 +1,38 @@
 switch (condition) {
-    case "first":
-        // code
-        break;
+	case 'first':
+	  // code
+	  break;
 
-    case "third":
-        // code
-        break;
+	case 'third':
+	  // code
+	  break;
 
-    default:
-    // code
+	default:
+	  // code
 }
-
 
 switch (condition) {
+	// obvious fall through    // 这里为啥JSHint默认就会放过，因为 case "first" 内无内容
+	case 'first':
+	case 'second':
+	  // code
+	  break;
 
-    // obvious fall through    // 这里为啥JSHint默认就会放过，因为 case "first" 内无内容
-    case "first":
-    case "second":
-        // code
-        break;
+	case 'third': // 这里为啥要加这样的注释， 明确告知JSHint放过此处告警
+	  // code
 
-    case "third":
-    // code
-
-    /* falls through */ // 这里为啥要加这样的注释， 明确告知JSHint放过此处告警
-    default:
-    // code
+	  /* falls through */ default:
+	  // code
 }
 
-switch(condition) {
-    case "first":
-        // code
-        break;
+switch (condition) {
+	case 'first':
+	  // code
+	  break;
 
-    case "second":
-        // code
-        break;
+	case 'second':
+	  // code
+	  break;
 
-    // no default
+	  // no default
 }

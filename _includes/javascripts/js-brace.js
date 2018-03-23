@@ -1,8 +1,8 @@
 // Good
 if (condition) {
-    doSomething();
+  doSomething();
 }
 
 if (condition)
-    doSomething();
-    doSomethingElse();
+  doSomething();
+  doSomethingElse();

@@ -1,40 +1,34 @@
 function doSomething(item) {
-    // do something
+  // do something
 }
 
-var doSomething = function (item) {
-    // do something
-}
-
+var doSomething = function(item) {
+  // do something
+};
 
 // Good
 doSomething(item);
 
 // Bad: Looks like a block statement
-doSomething (item);
-
+doSomething(item);
 
 // Good
 var value = (function() {
-
-    // function body
-    return {
-        message: "Hi"
-    }
-}());
-
+  // function body
+  return {
+    message: 'Hi'
+  };
+})();
 
 // Good
 (function() {
-    "use strict";
+  'use strict';
 
-    function doSomething() {
-        // code
-    }
+  function doSomething() {
+    // code
+  }
 
-    function doSomethingElse() {
-        // code
-    }
-
+  function doSomethingElse() {
+    // code
+  }
 })();
-

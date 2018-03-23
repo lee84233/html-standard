@@ -557,20 +557,6 @@ layout: default
   </div>
 </div>
 
-<div class="section" id="css-prefixed-properties">
-  <div class="col">
-    <h3>前缀属性</h3>
-    <p>当使用厂商前缀属性时，通过缩进使取值垂直对齐以便多行编辑。</p>
-    <p>在 Textmate 中，使用
-      <strong>Text &rarr; Edit Each Line in Selection</strong> (&#8963;&#8984;A)。 在 Sublime Text 2 中， 使用
-      <strong>Selection &rarr; Add Previous Line</strong> (&#8963;&#8679;&uarr;) 和
-      <strong>Selection &rarr; Add Next Line</strong> (&#8963;&#8679;&darr;)。</p>
-  </div>
-  <div class="col">
-    {% highlight css %}{% include css/prefixed-properties.css %}{% endhighlight %}
-  </div>
-</div>
-
 <div class="section" id="css-single-declarations">
   <div class="col">
     <h3>单条声明的声明块</h3>
@@ -734,11 +720,11 @@ layout: default
   <div class="col">
     <h3>Indentation,分号,单行长度</h3>
     <ul>
-      <li>一律使用4个空格</li>
-      <li>continuation-indentation 同样适用4个空格，跟上一行对齐</li>
+      <li>一律使用2个空格</li>
+      <li>continuation-indentation 同样适用2个空格，跟上一行对齐</li>
       <li>Statement 之后一律以分号结束， 不可以省略</li>
       <li>单行长度，理论上不要超过80列，不过如果编辑器开启 soft wrap 的话可以不考虑单行长度</li>
-      <li>接上一条，如果需要换行，存在操作符的情况，一定在操作符后换行，然后换的行缩进4个空格</li>
+      <li>接上一条，如果需要换行，存在操作符的情况，一定在操作符后换行，然后换的行缩进2个空格</li>
       <li>这里要注意，如果是多次换行的话就没有必要继续缩进了，比如说右边第二段这种就是最佳格式。</li>
     </ul>
   </div>
@@ -780,7 +766,7 @@ layout: default
   <div class="col">
     <h3>字符常量</h3>
     <ul>
-      <li>一般情况下统一使用 '' 单引号</li>
+      <li>一般情况下统一使用 'xxx' 单引号</li>
     </ul>
   </div>
 </div>
