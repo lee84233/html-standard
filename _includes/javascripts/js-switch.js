@@ -2,17 +2,16 @@ switch (condition) {
 	case 'first':
 	  // code
 	  break;
-
 	case 'third':
 	  // code
 	  break;
-
 	default:
 	  // code
 }
 
 switch (condition) {
-	// obvious fall through    // 这里为啥JSHint默认就会放过，因为 case "first" 内无内容
+	// obvious fall through
+	// 这里为啥JSHint默认就会放过，因为 case "first" 内无内容
 	case 'first':
 	case 'second':
 	  // code
